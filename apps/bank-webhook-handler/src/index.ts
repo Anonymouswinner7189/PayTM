@@ -38,7 +38,7 @@ app.post("/hdfcWebhook", async (req, res) => {
       }),
     ]);
     res.status(200).json({
-      message: "Captured",
+      message: "Transaction Successful",
     });
   } catch (e) {
     console.error(e);
